@@ -13,9 +13,9 @@ pipeline{
       sh './output'
       }
     }
-    stage('Deploy'){
+    stage('Depoy'){
       steps{
-        echo 'deploy
+        echo 'deploy'
       }
     }
   }
